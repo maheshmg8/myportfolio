@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: #0f4c81;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.profile-imgg {
+    border: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+/* Section Titles */
+section h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #0f4c81;
+    font-size: 2em;
+}
+
+/* Profile Section */
+#profile p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+.education-block {
+    margin-bottom: 20px;
+}
+
+/* Courses Section */
+#courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#courses li {
+    margin: 10px 0;
+}
+
+#courses a {
+    color: #0f4c81;
+    text-decoration: none;
+}
+
+#courses a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 30px;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-grid span {
+    background-color: #0f4c81;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #0f4c81;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #093455;
+}
+
+/* Footer */
+footer {
+    background-color: #0f4c81
+}
